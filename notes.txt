@@ -1,0 +1,4 @@
+Requirements:
+1. Cross-browser compatibility: IE8+ (Progressive Enhancement), FF (Latest), Chrome (Latest).
+2. Adaptive &/or responsive layout with media queries.
+3. Use CSS pre-processors of your choice (SASS, LESS, Stylus).
