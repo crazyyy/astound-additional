@@ -4,12 +4,10 @@
 @import 'import/forms';
 @import 'import/lists';
 @import 'import/tables';
-@import 'import/mixin.scss';
-@import 'import/wordpress.scss';
+@import 'import/mixin';
+@import 'import/wordpress';
+@import 'owl.carousel';
 @import 'sprite';
-@import 'font_fontawesome';
-@import 'font_opensans';
-@import 'font_roboto';
 
 @include fontface('dinnextltpro-bold', '../fonts/', 'dinnextltpro-bold');
 @include fontface('dinnextltpro-light', '../fonts/', 'dinnextltpro-light');
@@ -677,6 +675,19 @@ article {
 
       color: #fff;
       background-color: $orange;
+    }
+  }
+  .owl-carousel {
+    width: 780px;
+    margin: 0 auto;
+    .owl-item {
+      width: 185px;
+      height: 360px;
+      img {
+        width: 100%;
+        height: 270px;
+        margin: 0 0 20px;
+      }
     }
   }
 }
