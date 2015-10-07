@@ -147,19 +147,21 @@ header {
     }
     &.phone {
       left: 30px;
+
+      letter-spacing: .3px;
       &:before {
         @include sprite($sprite-ico-phone);
       }
-      letter-spacing: 0.3px;
     }
     &.gotomap {
       left: 162px;
+
+      letter-spacing: .2px;
       &:before {
         left: -25px;
 
         @include sprite($sprite-ico-gotomap);
       }
-      letter-spacing: 0.2px;
     }
   }
   .lang {
@@ -172,6 +174,7 @@ header {
     padding: 0;
 
     cursor: pointer;
+    letter-spacing: .2px;
     li {
       display: none;
 
@@ -211,7 +214,6 @@ header {
         @include sprite($sprite-ico-langarro);
       }
     }
-    letter-spacing: 0.2px;
   }
 }
 .header {
@@ -223,6 +225,7 @@ header {
 
     width: 136px;
     height: 51px;
+
     background-image: url(../img/logo.png);
   }
   form {
@@ -288,13 +291,12 @@ header {
     height: 50px;
     padding: 0 0 0 55px;
     h6 {
+      font-family: 'pfdintextcomppro-light-webfont';
+      line-height: .5;
 
       margin: 0 0 10px;
 
       color: $blue;
-      line-height: 0.5;
-
-      font-family: 'pfdintextcomppro-light-webfont';
     }
     .quantity {
       display: none;
@@ -416,9 +418,10 @@ article {
             span {
               font-family: $pfth;
               font-size: 123px;
-              line-height: 0.8;
+              line-height: .8;
 
               display: block;
+
               margin-bottom: -25px;
             }
           }
@@ -452,6 +455,8 @@ article {
             }
           }
           p {
+            line-height: 1.4;
+
             position: relative;
 
             display: inline-block;
@@ -466,8 +471,7 @@ article {
 
               @extend .dblock;
               @include sprite($sprite-quote-left);
-            }
-            line-height: 1.4;;;
+            };;
           }
         }
       }
@@ -490,10 +494,13 @@ article {
             span {
               font-family: $pfl;
               font-size: 52px;
-              letter-spacing: -9px;
+              line-height: .6;
+
               display: block;
-              line-height: 0.6;
-              margin-bottom: -10px;;
+
+              margin-bottom: -10px;
+
+              letter-spacing: -9px;;
             }
           }
         }
@@ -506,6 +513,7 @@ article {
           padding: 157px 0 0;
 
           text-align: center;
+          letter-spacing: 2px;
 
           background-image: url(../img/content/block-headline-3.jpg);
           a {
@@ -522,9 +530,10 @@ article {
               color: #fff;
               span {
                 font-family: $pfth;
+                font-size: 60px;
 
                 display: block;
-                font-size: 60px;
+
                 margin-bottom: -15px;
               }
             }
@@ -551,7 +560,6 @@ article {
               }
             }
           }
-          letter-spacing: 2px;
         }
         &:nth-child(3) {
           width: 184px;
@@ -568,20 +576,24 @@ article {
 
             color: #fff;
             &:first-child {
-              line-height: 0.9;display:block;
+              line-height: .9;
+
+              display: block;
 
               margin: 0 0 10px;
+
               letter-spacing: -6px;
             }
             &.read-more {
               font-size: 14px;
               font-size: 14px;
 
+              padding: 2px 16px;
+
               text-transform: capitalize;
 
               color: $light-red;
               background-color: #fff;
-              padding: 2px 16px;
             }
           }
         }
@@ -589,6 +601,8 @@ article {
           position: relative;
 
           float: right;
+
+          width: 282px;
           height: 211px;
           margin-right: 0;
           margin-bottom: 0;
@@ -606,6 +620,7 @@ article {
             width: 213px;
             margin: 0 auto;
 
+            letter-spacing: 1px;
             text-transform: lowercase;
 
             color: #000;
@@ -614,8 +629,9 @@ article {
 
               display: block;
 
-              text-transform: uppercase;
               margin-bottom: -16px;
+
+              text-transform: uppercase;
             }
             &:after,
             &:before {
@@ -625,26 +641,26 @@ article {
               @extend .dblock;
             }
             &:before {
+              top: -10px;
               left: -26px;
 
               @include sprite($sprite-quote-left);
-              top: -10px;
             }
             &:after {
+              top: -10px;
               right: -20px;
 
-              @include sprite($sprite-quote-right);
-              top: -10px;
               background-image: url(../img/sprite.png);
+
+              @include sprite($sprite-quote-right);
             }
-            letter-spacing: 1px;
           }
           .price {
             font-family: $dpm;
             font-size: 36px;
 
             position: absolute;
-            right: 0px;
+            right: 0;
             bottom: -17px;
 
             color: #000;
@@ -660,7 +676,6 @@ article {
               content: '$';
             }
           }
-          width: 282px;
         }
       }
     }
@@ -693,11 +708,12 @@ article {
       background-color: $orange;
     }
     span {
-      padding: 3px 20px 0px;
+      padding: 3px 20px 0;
+
+      letter-spacing: -1px;
 
       color: #fff;
       background-color: $orange;
-      letter-spacing: -1px;
     }
   }
   .owl-carousel {
@@ -765,10 +781,11 @@ article {
 
             color: #000;
             td {
-              padding: 0 0 0px;
+              padding: 0 0 0;
               &:last-child {
                 font-family: $dpm;
                 font-size: 29px;
+                line-height: 1.4;
                 .currency {
                   font-family: $dpr;
                   font-size: 14px;
@@ -780,7 +797,6 @@ article {
                     vertical-align: super;
                   }
                 }
-                line-height: 1.4;
               }
             }
           }
@@ -826,6 +842,27 @@ article {
 }
 
 @import 'media/320';
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
