@@ -6,41 +6,8 @@
 @import 'import/tables';
 @import 'import/mixin';
 @import 'owl.carousel';
+@import 'fonts';
 @import 'sprite';
-
-@include fontface('dinnextltpro-bold', '../fonts/', 'dinnextltpro-bold');
-@include fontface('dinnextltpro-light', '../fonts/', 'dinnextltpro-light');
-@include fontface('dinnextltpro-medium', '../fonts/', 'dinnextltpro-medium');
-@include fontface('dinnextltpro-regular', '../fonts/', 'dinnextltpro-regular');
-@include fontface('dinpro-black', '../fonts/', 'dinpro-black');
-@include fontface('dinpro-bold', '../fonts/', 'dinpro-bold');
-@include fontface('dinpro-light', '../fonts/', 'dinpro-light');
-@include fontface('dinpro-medium', '../fonts/', 'dinpro-medium');
-@include fontface('dinpro-regular', '../fonts/', 'dinpro-regular');
-@include fontface('helveticaneueltstd-bd-webfont', '../fonts/', 'helveticaneueltstd-bd-webfont');
-@include fontface('helveticaneueltstd-blkcn', '../fonts/', 'helveticaneueltstd-blkcn');
-@include fontface('helveticaneueltstd-cn', '../fonts/', 'helveticaneueltstd-cn');
-@include fontface('helveticaneueltstd-it', '../fonts/', 'helveticaneueltstd-it');
-@include fontface('helveticaneueltstd-lt-webfont', '../fonts/', 'helveticaneueltstd-lt-webfont');
-@include fontface('helveticaneueltstd-roman', '../fonts/', 'helveticaneueltstd-roman');
-@include fontface('helveticaneueltstd-th', '../fonts/', 'helveticaneueltstd-th');
-@include fontface('helveticaneueltstd-thcn', '../fonts/', 'helveticaneueltstd-thcn');
-@include fontface('helveticaneueltstd-ultlt', '../fonts/', 'helveticaneueltstd-ultlt');
-@include fontface('pfdintextcomppro-bold-webfont', '../fonts/', 'pfdintextcomppro-bold-webfont');
-@include fontface('pfdintextcomppro-light-webfont', '../fonts/', 'pfdintextcomppro-light-webfont');
-@include fontface('pfdintextcomppro-medium-webfont', '../fonts/', 'pfdintextcomppro-medium-webfont');
-@include fontface('pfdintextcomppro-regular-webfont', '../fonts/', 'pfdintextcomppro-regular-webfont');
-@include fontface('pfdintextcomppro-thin-webfont', '../fonts/', 'pfdintextcomppro-thin-webfont');
-@include fontface('pfdintextcomppro-xthin-webfont', '../fonts/', 'pfdintextcomppro-xthin-webfont');
-$dpr: 'dinnextltpro-regular';
-$dpm: 'dinnextltpro-medium';
-$pfxth: 'pfdintextcomppro-xthin-webfont';
-$pfth: 'pfdintextcomppro-thin-webfont';
-$pfl: 'pfdintextcomppro-light-webfont';
-$pfr: 'pfdintextcomppro-regular-webfont';
-$pfl: 'pfdintextcomppro-light-webfont';
-$hth: 'helveticaneueltstd-th';
-
 
 body {
   font-family: $base-font-family;
@@ -230,7 +197,7 @@ header {
   }
   form {
     position: absolute;
-    top: 25px;
+    top: 23px;
     left: 200px;
 
     width: 535px;
