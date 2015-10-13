@@ -718,11 +718,20 @@ article {
     }
     .owl-item {
       width: 185px;
-      /*       height: 360px; */
       img {
         width: 100%;
         height: 270px;
         margin: 0 0 9px;
+      }
+      &.sale-item {
+        &:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+
+          @extend .dblock;
+          @include sprite($sprite-sale-item);
+        }
       }
       table {
         margin: 0 0 4px;
@@ -814,9 +823,6 @@ article {
 
 
 @media (max-width: 480px) {
-
-
-
 }
 
 
